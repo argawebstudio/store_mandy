@@ -3,13 +3,13 @@ contact:
   enable : true
   # office
   office:
-    title : "Central Office"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    title : "Officinas centrales"
+    content : "En la costa del sol, como los marqueses"
     # other information comes from "config.toml"
 
   # opennig hour
   opennigHour:
-    title : "Opening Hours"
+    title : "Atención al público"
     dayTimeList:
       - dayTime : "Monday: 9:00 – 19:00"
       - dayTime : "Tuesday: 9:00 – 19:00"

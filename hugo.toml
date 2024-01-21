@@ -1,10 +1,10 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/hargo/site/"
-languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+languageCode = "es"
+title = "Happy Mandy"
 theme = "hargo-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "Europe/Madrid"
 # post pagination
 paginate = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
@@ -43,7 +43,7 @@ home = ["HTML", "RSS"]
 # See https://github.com/disintegration/imaging
 # Default JPEG or WebP quality setting. Default is 75.
 quality = 90
-resampleFilter = "lanczos"
+resampleFilter = "Lanczos"
 
 ############################# Caches ###############################
 [caches]
@@ -86,75 +86,75 @@ unsafe = true
 [menu]
 
   [[menu.main]]
-  name = "Products"
-  URL = "products/"
+  name = "Productos"
+  url = "products/"
   weight = 1
 
   [[menu.main]]
   name = "Blog"
-  URL = "blog/"
+  url = "blog/"
   weight = 2
 
   [[menu.main]]
   name = "FAQ"
-  URL = "faq/"
+  url = "faq/"
   weight = 3
 
   [[menu.main]]
-  name = "Contact"
-  URL = "contact/"
+  name = "Contacto"
+  url = "contact/"
   weight = 4
 
   ############# footer menu #############
   [[menu.footer]]
-  name = "Products"
-  URL = "products/"
+  name = "Productos"
+  url = "products/"
   weight = 1
 
   [[menu.footer]]
   name = "Blog"
-  URL = "blog/"
+  url = "blog/"
   weight = 2
 
   [[menu.footer]]
   name = "FAQ"
-  URL = "faq/"
+  url = "faq/"
   weight = 3
 
   [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "terms-conditions/"
+  name = "Términos y condiciones"
+  url = "terms-conditions/"
   weight = 4
 
   [[menu.footer]]
-  name = "Contact"
-  URL = "contact/"
+  name = "Contacto"
+  url = "contact/"
   weight = 5
 
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-home = "Home"
+home = "Inicio"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+mapLatitude = "36.72001654503082"
+mapLongitude = "-4.419994141683311"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalyticsID = "" # Your ID
 # Contact Information
-mobile = "0124857985320"
+mobile = "+34 6969696969"
 email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+location = "Málaga, España"
 # copyright
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+snipcartApiKey = "......."
+currencySymbol = "€"
 
   # Preloader
   [params.preloader]
@@ -183,7 +183,7 @@ currencySymbol = "$"
 
   [[params.social]]
   icon = "ti-instagram"
-  link = "#"
+  link  = "https://www.instagram.com/klaus"
 
   [[params.social]]
   icon = "ti-pinterest"
